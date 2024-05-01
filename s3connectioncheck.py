@@ -3,8 +3,8 @@ import boto3
 # Replace with your AWS credentials and bucket name
 s3 = boto3.client(
     's3',
-    aws_access_key_id='AKIAW3MEFO2MWQSHHA74',
-    aws_secret_access_key='GdmWJwQT6wKDDyW/DfcwOaEVUOzKSfUiqO+D21tq',
+    aws_access_key_id='AWS_KEY',
+    aws_secret_access_key='SECRET_KEY',
     
 )
 bucket_name = 'todobuckets3'
