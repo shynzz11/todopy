@@ -3,10 +3,10 @@ import base64
 import hashlib
 
 # Replace these values with your MySQL database credentials
-host = 'todoaws.c9oim4s6c55n.us-east-1.rds.amazonaws.com'
-user = 'admin'
-password = 'admin123'
-database = 'tododb'
+host = 'host'
+user = 'host
+password = 'host'
+database = 'host'
 
 def hash_password(password):
     """Hashes the password using SHA-256 and encodes it in Base64."""
