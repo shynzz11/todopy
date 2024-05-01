@@ -53,10 +53,10 @@ def hash_password(password):
 def authenticate_from_database(username, password):
     try:
         # Connect to the SQL database
-        hostdb = 'todoaws.c9oim4s6c55n.us-east-1.rds.amazonaws.com'
-        userdb = 'admin'
-        passworddb = 'admin123'
-        databasedb = 'tododb'
+        hostdb = 'host'
+        userdb = 'host'
+        passworddb = '3'
+        databasedb = 'b'
         connectiondb = pymysql.connect(
             host=hostdb,
             user=userdb,
@@ -122,10 +122,10 @@ def signup():
             # Hash the password before storing it in the database
             password_hash = hash_password(password)
             # Connect to the SQL database
-            hostdb = 'todoaws.c9oim4s6c55n.us-east-1.rds.amazonaws.com'
-            userdb = 'admin'
-            passworddb = 'admin123'
-            databasedb = 'tododb'
+            hostdb = 'm'
+            userdb = 's'
+            passworddb = 's'
+            databasedb = 's'
             connectiondb = pymysql.connect(
                 host=hostdb,
                 user=userdb,
