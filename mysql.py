@@ -1,10 +1,10 @@
 import pymysql
 
 # Replace these values with your MySQL database credentials
-host = 'todoaws.c9oim4s6c55n.us-east-1.rds.amazonaws.com'
-user = 'admin'
-password = 'admin123'
-database = 'tododb'
+host = 'host'
+user = 'host'
+password = 'host'
+database = 'host'
 
 # Establish a connection to the MySQL server
 try:
