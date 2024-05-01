@@ -12,7 +12,7 @@ app = Flask(__name__)
 BUCKET_NAME = 'todobuckets3'
 
 # Create fsspec filesystem object with AWS4Auth
-s3 = fsspec.filesystem('s3', anon=False, key='AKIAW3MEFO2MWQSHHA74', secret='GdmWJwQT6wKDDyW/DfcwOaEVUOzKSfUiqO+D21tq')
+s3 = fsspec.filesystem('s3', anon=False, key='AWS_KEY', secret='SECRET_AWS')
 
 # Replace with your database connection logic (using libraries like SQLAlchemy)
 todos = {}  # Temporary storage, replace with database interaction
